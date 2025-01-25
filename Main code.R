@@ -42,7 +42,6 @@ library(rworldmap)
 
 # Read data
 # setwd()
-setwd("C:/Users/45529/Desktop/课题相关/20230227 diarrhoea/20230512 tidy data_other countries/999all/06_new_data_std_01/04_prec_analysis_code/01_code_04_correct_rain_20241122/01_code_submission_01")
 country_all <- read.csv("sim_diar_01.csv") # Weekly time series diarrhea data
 meta_ind <- read.csv("sim_meta_01.csv") # indicator for meta-regression
 
